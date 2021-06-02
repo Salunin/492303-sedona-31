@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Каталог</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+			<ul>
+				<li><a href="catalog.html">Информация</a></li>
+				<li><a href="#">Фото и видео</a></li>
+				<li><a href="#">Карта штата</a></li>
+				<li><a href="#">Гостиницы</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Каталог</h1>
+		<form>
+			<label>Инфраструктура:</label><br>
+			<input id="pond" type="checkbox" checked name="Бассейн">
+			<label for="pond">Бассейн</label><br>
+			<input id="parking" type="checkbox" name="Парковка">
+			<label for="parking">Парковка</label><br>
+			<input id="wifi" type="checkbox" name="Wi-Fi">
+			<label for="wifi">Wi-Fi</label><br>
+			<label>Тип жилья:</label><br>
+			<input id="hotel" type="checkbox" checked name="Гостиница">
+			<label for="hotel">Гостиница</label><br>
+			<input id="motel" type="checkbox" checked name="Мотель">
+			<label for="motel">Мотель</label><br>
+			<input id="apartments" type="checkbox" checked name="Аппартаменты">
+			<label for="apartments">Аппартаменты</label><br>
+			<label>Стоимость в сутки</label>
+			<input type="range" min="0" max="3000" step="1" value="1500">
+			<button type="button">Показать</button>
+		</form>
+	</section>
+	<section>
+		<h2>Найдено: 3</h2>
+		<p>Сортировка:</p>
+		<ul>
+			<a href="#">По цене</a>
+			<a href="#">По типу</a>
+			<a href="#">По рейтингу</a>
+		</ul>
+		<ul>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+		<ul>
+			<li>
+				<h3><a href="#">Amara Resort & Spa</a></h3>
+				<img src="img/Layer1.png" alt="">
+				<p>Гостиница</p>
+				<p>От 4000 ₽</p>
+				<button>Подробнее</button>
+				<button>Забронировать</button>
+				<p>Рейтинг</p>
+				<p>Рейтинг: 8,5</p>
+			</li>
+			<li>
+				<h3><a href="#">Desert Quail Inn</a></h3>
+				<img src="img/Layer2.png" alt="">
+				<p>Мотель</p>
+				<p>От 3000 ₽</p>
+				<button>Подробнее</button>
+				<button>Забронировать</button>
+				<p>Рейтинг</p>
+				<p>Рейтинг: 8,9</p>
+			</li>
+			<li>
+				<h3><a href="#">Villas at Poco Diablo</a></h3>
+				<img src="img/Layer3.png" alt="">
+				<p>Апартаменты</p>
+				<p>От 2000 ₽</p>
+				<button>Подробнее</button>
+				<button>Забронировать</button>
+				<p>Рейтинг</p>
+				<p>Рейтинг: 9,2</p>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<div>
+			<p>#visitSEDONA</p>
+			<a href="tel:+78005558628">+7 800 555-86-28</a>
+		</div>
+		<ul>
+			<li><a href="#"><img src="img/social.svg" alt="twitter"></a></li>
+			<li><a href="#"><img src="img/social.svg" alt="facebook"></a></li>
+			<li><a href="#"><img src="img/social.svg" alt="youtube"></a></li>
+		</ul>
+		<div>
+			<p>Website by</p>
+			<a href="http://htmlacademy.ru/"><img src="img/logo_htmlacademy.svg" alt=""></a>
+		</div>
+	</footer>
+</body>
+</html>
